@@ -10,3 +10,19 @@ From initial analysis, the years and months are put together (January 2024 is 20
 This is so that analysis is done more efficiently when merging datasets as most datasets on socio-economic factors are in the long format.
 There were also strange values recorded for BoroughName and were labelled as "Unknown". Using the Excel filter, they were deleted so that what remained
 was all the confirmed boroughs and crime types as well as their crime count.
+
+Other changes were:
+- BoroughName was changed to "Borough" for simplicity.
+- Changed MinorText to "Crime_Type"
+- Did not change format of dates and times in Excel
+- Did not change table format to Long in Excel.
+
+Using Google Colab, the dataset was loaded after being slightly modified so that it would be further modified.
+
+Modifications included:
+- "MajorText" being dropped
+- Format of dataset was changed to Long to fit analytical requirements
+- Month and year were separated during pre-processing as AI assistant suggested it would improve efficiency of analysis
+- Any missing values in the crime count were set as 0
+
+After initial pre-processing, the data was saved as a csv named "Crime_Data_Jan2024_Dec2025.csv"

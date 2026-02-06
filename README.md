@@ -26,3 +26,6 @@ Modifications included:
 - Any missing values in the crime count were set as 0
 
 After initial pre-processing, the data was saved as a csv named "Crime_Data_Jan2024_Dec2025.csv"
+
+To load the data, using google colab, upload "MPS_Borough_Level_Crime_Analysis_Ready" and copy the file path and paste it as the variable for "crime_csv_url".
+then run the code as normal to get results.

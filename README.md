@@ -29,3 +29,6 @@ After initial pre-processing, the data was saved as a csv named "Crime_Data_Jan2
 
 To load the data, using google colab, upload "MPS_Borough_Level_Crime_Analysis_Ready" and copy the file path and paste it as the variable for "crime_csv_url".
 then run the code as normal to get results.
+
+Errors may occur if GitHub being unable to let you search the dataset means that the format has changed.
+If no errors occur, ignore the previous line.

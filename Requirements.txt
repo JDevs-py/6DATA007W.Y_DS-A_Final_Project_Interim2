@@ -4,3 +4,7 @@ Python libraries (# Taken from different tutorials in other modules)
 -Plotly: Scatterplots
 -Matplotlib: figure titles
 -Numpy: arrays
+
+# Further libraries required for future progression
+-dataprep.eda
+-Scipy

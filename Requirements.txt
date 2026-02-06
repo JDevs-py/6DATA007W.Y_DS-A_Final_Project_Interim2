@@ -1,0 +1,6 @@
+Python libraries (# Taken from different tutorials in other modules)
+-Pandas: Loading data and saving them
+-Seaborn: barplots
+-Plotly: Scatterplots
+-Matplotlib: figure titles
+-Numpy: arrays
